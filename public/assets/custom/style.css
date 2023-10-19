@@ -1,0 +1,77 @@
+.parent {
+    position: relative;
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+    border: 2px solid transparent;
+    background-color: rgb(0, 30, 255);
+    color: white;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    transform: skewX(12deg);
+    transform: scale(1.5);
+
+}
+
+
+.button1 , .button2 , .button3 ,.button4  , .button5 {
+    left: 350px;
+    top: 37px;
+}
+
+.button2 {
+    /* left: 986px; */
+    top: 113px ;
+}
+
+
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.button3 {
+    /* left: 151px; */
+    top: 189px;
+}
+
+.button4 {
+    /* left: 986px; */
+    top: 259px;
+}
+
+.button5 {
+    /* left: 584px; */
+    top: 334px;
+}
+
+.button3:hover {
+    background-color: black;
+    color: white;
+}
+
+.button4:hover {
+    background-color: black;
+    color: white;
+}
+
+.button5:hover {
+    background-color: black;
+    color: white;
+}
